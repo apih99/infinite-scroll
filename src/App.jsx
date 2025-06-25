@@ -7,9 +7,9 @@ const contentGenerators = {
   normal: [
     () => ({ type: 'text', content: 'Hello, world! 👋' }),
     () => ({ type: 'text', content: 'Welcome to this perfectly normal website.' }),
-    () => ({ type: 'image', content: '/image/catImage1.jpg', alt: 'A cute cat' }),
-    () => ({ type: 'image', content: '/image/catImage2.avif', alt: 'Another adorable cat' }),
-    () => ({ type: 'image', content: '/image/catImag3.avif', alt: 'Yet another lovely cat' }),
+    () => ({ type: 'image', content: './image/catImage1.jpg', alt: 'A cute cat' }),
+    () => ({ type: 'image', content: './image/catImage2.avif', alt: 'Another adorable cat' }),
+    () => ({ type: 'image', content: './image/catImag3.avif', alt: 'Yet another lovely cat' }),
     () => ({ type: 'text', content: 'Have a wonderful day!' }),
     () => ({ type: 'text', content: 'Look at these adorable cats! 🐱' }),
     () => ({ type: 'image', content: 'https://picsum.photos/400/300?random=1', alt: 'A nice landscape' }),
